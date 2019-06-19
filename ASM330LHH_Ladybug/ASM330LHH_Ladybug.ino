@@ -1,3 +1,14 @@
+/* 06/19/2019 Copyright Tlera Corporation
+
+    Created by Kris Winer
+
+  This sketch uses SDA/SCL on pins 21/20 (Ladybug default), respectively, and it uses the Ladybug STM32L432KC Breakout Board.
+  The ASM330LHH is a AEC-Q100 qualified ST motion sensor with embedded accel and gyro, similar to the LSM6DSM.
+
+  Library may be used freely and without limit with attribution.
+
+*/
+
 #include "ASM330LHH.h"
 #include <RTC.h>
 #include "I2Cdev.h"
