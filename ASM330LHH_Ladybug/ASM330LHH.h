@@ -1,9 +1,9 @@
-/* 09/23/2017 Copyright Tlera Corporation
+/* 06/19/2019 Copyright Tlera Corporation
 
     Created by Kris Winer
 
-  This sketch uses SDA/SCL on pins 21/20 (Butterfly default), respectively, and it uses the Butterfly STM32L433CU Breakout Board.
-  The ASM330LHH is a sensor hub with embedded accel and gyro, here used as 6 DoF in a 9 DoF absolute orientation solution.
+  This sketch uses SDA/SCL on pins 21/20 (Ladybug default), respectively, and it uses the Ladybug STM32L432KC Breakout Board.
+  The ASM330LHH is a sensor with embedded accel and gyro.
 
   Library may be used freely and without limit with attribution.
 
